@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Define the DISA STIG profile for Oracle Linux 8.7
-STIG_PROFILE="stigprofile-rhel8-ds.xml"
-
 # Install the OpenSCAP tools if not already installed
 if ! command -v oscap &> /dev/null
 then
